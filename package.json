@@ -1,9 +1,10 @@
 {
   "name": "nodejs-backend-project",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
     "url": "https://github.com/shivrajdeshmukh45/nodejs-backend-project/issues"
   },
   "homepage": "https://github.com/shivrajdeshmukh45/nodejs-backend-project#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
